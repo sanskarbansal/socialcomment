@@ -1,0 +1,51 @@
+.applicants {
+    background-color: #1f232a;
+    margin: 0 auto;
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 24px 24px 0 0;
+    transform: translateY(-10%);
+    height: 400px;
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+.applicants > h1 {
+    font-weight: 200;
+}
+.applicants--container {
+    row-gap: 2rem;
+    height: 90%;
+    padding-right: 1.5rem;
+    align-items: center;
+    overflow: scroll;
+}
+.applicants > div:first-child {
+    justify-content: space-between;
+}
+.applicants__applicant {
+    justify-content: space-between;
+    min-width: 280px;
+    width: 100%;
+}
+.applicants__applicant:first-child {
+    margin: 0;
+}
+.applicants__applicant h2 {
+    margin: 0;
+    font-weight: 400;
+}
+.applicants__applicant span {
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+.applicants__applicant svg {
+    font-size: 1rem;
+    background: #393e4b;
+    padding: 0.5rem;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.applicants__applicant svg:first-of-type {
+    font-size: 3rem;
+    background: transparent;
+}

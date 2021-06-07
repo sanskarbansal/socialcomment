@@ -1,6 +1,7 @@
 .sidebar {
     width: 5rem;
-    border-right: 4px solid #414753bb;
+    /* border-right: 4px solid #32363fbb; */
+    box-shadow: 3px 0px 3px #32363f5e;
     transition: all 0.5s ease-in;
     row-gap: 3rem;
     position: relative;

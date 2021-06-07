@@ -1,0 +1,19 @@
+.progressbar {
+    justify-content: space-between;
+}
+
+.progressbar--container {
+    flex-grow: 0.8;
+    max-width: 150px;
+    height: 8px;
+    background: #46464a;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.progressbar--container__progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}

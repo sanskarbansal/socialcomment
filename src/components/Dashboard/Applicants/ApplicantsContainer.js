@@ -31,7 +31,7 @@ export default function ApplicantsContainer() {
     return (
         <div className="applicants--container df fdc">
             {applicants.map(({ name, approvedBy }) => (
-                <div className="applicants__applicant df aic">
+                <div key={name} className="applicants__applicant df aic">
                     <AccountCircleIcon />
 
                     <div>

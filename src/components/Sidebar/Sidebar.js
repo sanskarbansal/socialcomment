@@ -48,7 +48,7 @@ export default class Sidebar extends Component {
                 description: "Photos",
             },
             {
-                path: "/f",
+                path: "/g",
                 Component: () => <SettingsIcon style={{ color: "white" }} />,
                 description: "",
             },

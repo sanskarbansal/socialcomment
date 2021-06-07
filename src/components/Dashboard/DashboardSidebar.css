@@ -24,5 +24,7 @@
     transform: translateX(-50%);
 }
 .dashboard--content__sidebar {
-    flex-grow: 1;
+}
+.applicants h1 {
+    padding-bottom: 1rem;
 }

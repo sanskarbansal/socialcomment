@@ -1,6 +1,7 @@
 .App {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: nowrap;
     background-color: #1b2028;
+    /* min-width: 100vh; */
 }

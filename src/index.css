@@ -8,7 +8,14 @@ body {
     color: white;
     font-size: 14px;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
 .bs {
     box-shadow: 3px 2px 3px #32363f5e, -1px -1px 3px #32363f5e;
 }
